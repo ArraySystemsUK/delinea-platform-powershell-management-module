@@ -1,0 +1,31 @@
+{
+  "Tenant": "ASUK",
+
+  "UrlBase": {
+    "Platform": "https:///ASUK.delinea.app",
+    "SecretServer": "https://ASUK.secretservercloud.co.uk"
+  },
+
+  "OAuth": {
+    "TokenEndpoint": "https://ASUK.delinea.app/identity/api/oauth2/token/xpmplatform",
+    "Username": "D0-Api-Folder-Manager@ASUK"
+  },
+
+  "ApiBase": {
+    "Platform": "https://ASUK.delinea.app/identity/api",
+    "SecretServer": "https://ASUK.secretservercloud.co.uk/api/v1",
+    "SecretServer2": "https://ASUK.secretservercloud.co.uk/api/v2",
+    "sysInternals": "https://ASUK.secretservercloud.co.uk/internals/secret-detail",
+    "itdr": "https://ASUK.delinea.app/itdr/api",
+    "inventory": "https://ASUK.delinea.app/inventory/api"
+  },
+
+  "ManagementGroups": {
+    "globalOwnerGroupId": 100,
+    "apiGlobalOwnerGroupId": 101
+  },
+
+  "Logging": {
+    "Level": "Info"
+  }
+}
